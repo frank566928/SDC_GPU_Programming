@@ -1,5 +1,5 @@
 CC = /usr/bin/clang++
-CFLAGS = -fopenmp -O3
+CFLAGS = -fopenmp -O3 -ffast-math -march=native
 
 all: my_program
 
